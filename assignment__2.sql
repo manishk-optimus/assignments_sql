@@ -1,3 +1,4 @@
+--Assignment_2
 select ISNULL(te.emp_f_name,'')+' '+ISNULL(te.emp_m_name,'')+' '+ISNULL(te.emp_l_name,'') full_name,
        LJ2.got_increment,
 	   LJ2.prev_sal,
